@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/bg"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/bg"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyAllnews"
+        tools:targetApi="31">
+        <activity
+            android:name=".Times"
+            android:exported="false" />
+        <activity
+            android:name=".Telegraph"
+            android:exported="false" />
+        <activity
+            android:name=".Share"
+            android:exported="false" />
+        <activity
+            android:name=".Samakal"
+            android:exported="false" />
+        <activity
+            android:name=".Protidin"
+            android:exported="false" />
+        <activity
+            android:name=".Prothomalo"
+            android:exported="false" />
+        <activity
+            android:name=".Orthoniti"
+            android:exported="false" />
+        <activity
+            android:name=".Observer"
+            android:exported="false" />
+        <activity
+            android:name=".Naya"
+            android:exported="false" />
+        <activity
+            android:name=".Manob"
+            android:exported="false" />
+        <activity
+            android:name=".Kalerkontho"
+            android:exported="false" />
+        <activity
+            android:name=".Kalbela"
+            android:exported="false" />
+        <activity
+            android:name=".Jugantor"
+            android:exported="false" />
+        <activity
+            android:name=".Jonokontho"
+            android:exported="false" />
+        <activity
+            android:name=".Jayjay"
+            android:exported="false" />
+        <activity
+            android:name=".Ittefaq"
+            android:exported="false" />
+        <activity
+            android:name=".Inkelab"
+            android:exported="false" />
+        <activity
+            android:name=".Indian"
+            android:exported="false" />
+        <activity
+            android:name=".Hindustan"
+            android:exported="false" />
+        <activity
+            android:name=".Hindu"
+            android:exported="false" />
+        <activity
+            android:name=".Financial"
+            android:exported="false" />
+        <activity
+            android:name=".Eisomoy"
+            android:exported="false" />
+        <activity
+            android:name=".Dailystar"
+            android:exported="false" />
+        <activity
+            android:name=".Bortoman"
+            android:exported="false" />
+        <activity
+            android:name=".Ananda"
+            android:exported="false" />
+        <activity
+            android:name=".Abp"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
